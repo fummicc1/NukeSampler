@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "TableViewCell")
-        imageArray = []
         for imageName in imageNameArray {
             Storage.storage().reference().child(imageName).downloadURL(completion: { (url, error) in
                 guard let url = url else { return }
