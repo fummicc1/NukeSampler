@@ -8,6 +8,8 @@ target 'NukeSampler' do
   # Pods for NukeSampler
 
 pod 'Nuke', '~> 7.0'
+pod 'Firebase/Core'
+pod 'Firebase/Storage'
 
 
 end

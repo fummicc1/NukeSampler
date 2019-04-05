@@ -10,10 +10,12 @@
 		544E2E3A0B4C091F67DC2B5D /* Pods_NukeSampler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6942B8EA963D5109E8C4AA34 /* Pods_NukeSampler.framework */; };
 		D37440262256FE46006E6495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37440252256FE46006E6495 /* AppDelegate.swift */; };
 		D37440282256FE46006E6495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37440272256FE46006E6495 /* ViewController.swift */; };
-		D374402B2256FE46006E6495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37440292256FE46006E6495 /* Main.storyboard */; };
 		D374402D2256FE47006E6495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D374402C2256FE47006E6495 /* Assets.xcassets */; };
 		D37440302256FE47006E6495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D374402E2256FE47006E6495 /* LaunchScreen.storyboard */; };
 		D3830A152256FFA700C9FCBD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3830A142256FFA700C9FCBD /* GoogleService-Info.plist */; };
+		D3830A172257031700C9FCBD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3830A162257031700C9FCBD /* ViewController.xib */; };
+		D3830A1A22570ADC00C9FCBD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3830A1822570ADC00C9FCBD /* TableViewCell.swift */; };
+		D3830A1B22570ADC00C9FCBD /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3830A1922570ADC00C9FCBD /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +25,13 @@
 		D37440222256FE46006E6495 /* NukeSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NukeSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37440252256FE46006E6495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D37440272256FE46006E6495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D374402A2256FE46006E6495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D374402C2256FE47006E6495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D374402F2256FE47006E6495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D37440312256FE47006E6495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3830A142256FFA700C9FCBD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3830A162257031700C9FCBD /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		D3830A1822570ADC00C9FCBD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D3830A1922570ADC00C9FCBD /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,13 +76,15 @@
 		D37440242256FE46006E6495 /* NukeSampler */ = {
 			isa = PBXGroup;
 			children = (
-				D37440252256FE46006E6495 /* AppDelegate.swift */,
-				D37440272256FE46006E6495 /* ViewController.swift */,
-				D37440292256FE46006E6495 /* Main.storyboard */,
-				D374402C2256FE47006E6495 /* Assets.xcassets */,
-				D374402E2256FE47006E6495 /* LaunchScreen.storyboard */,
-				D37440312256FE47006E6495 /* Info.plist */,
 				D3830A142256FFA700C9FCBD /* GoogleService-Info.plist */,
+				D37440312256FE47006E6495 /* Info.plist */,
+				D37440252256FE46006E6495 /* AppDelegate.swift */,
+				D3830A1822570ADC00C9FCBD /* TableViewCell.swift */,
+				D37440272256FE46006E6495 /* ViewController.swift */,
+				D374402C2256FE47006E6495 /* Assets.xcassets */,
+				D3830A1922570ADC00C9FCBD /* TableViewCell.xib */,
+				D3830A162257031700C9FCBD /* ViewController.xib */,
+				D374402E2256FE47006E6495 /* LaunchScreen.storyboard */,
 			);
 			path = NukeSampler;
 			sourceTree = "<group>";
@@ -152,9 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D37440302256FE47006E6495 /* LaunchScreen.storyboard in Resources */,
+				D3830A1B22570ADC00C9FCBD /* TableViewCell.xib in Resources */,
 				D3830A152256FFA700C9FCBD /* GoogleService-Info.plist in Resources */,
+				D3830A172257031700C9FCBD /* ViewController.xib in Resources */,
 				D374402D2256FE47006E6495 /* Assets.xcassets in Resources */,
-				D374402B2256FE46006E6495 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,13 +177,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NukeSampler/Pods-NukeSampler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -212,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3830A1A22570ADC00C9FCBD /* TableViewCell.swift in Sources */,
 				D37440282256FE46006E6495 /* ViewController.swift in Sources */,
 				D37440262256FE46006E6495 /* AppDelegate.swift in Sources */,
 			);
@@ -220,14 +234,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D37440292256FE46006E6495 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D374402A2256FE46006E6495 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D374402E2256FE47006E6495 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
